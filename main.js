@@ -5,8 +5,8 @@ color = "Pink";
 width_of_line = 5;
     var last_position_of_touch_x,last_position_of_touch_y;
     var width = screen.width;
-    var new_width = screen.width - 30;
-    var new_height = screen.height - 70;
+    var new_width = screen.width - 20;
+    var new_height = screen.height - 60;
     if(width < 992){
         document.getElementById("myCanvas").width = new_width;
         document.getElementById("myCanvas").height = new_height;
